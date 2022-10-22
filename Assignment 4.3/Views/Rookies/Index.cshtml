@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Rookies Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Rookies list</h1>
+    <div class="text-left mt-2 mb-3">
+        <a class="btn btn-primary" role="button" asp-controller="Rookies" asp-action="Create">Create new member</a>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col" class="text-right">#</th>
+                <th scope="col" class="text-left">Full Name</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Date Of Birth</th>
+                <th scope="col">Birth Place</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                var person = Model[i];
+                <tr>
+                    <th scope="row" class="text-right">@(i+1)</th>
+                    <td class="text-left">
+                        <a asp-controller="Rookies" asp-action="Detail" asp-route-index="@i">@person.FullName</a>
+                    </td>
+                    <td>@person.Gender</td>
+                    <td>@person.DateOfBirth.ToString("dd/MM/yyyy")</td>
+                    <td>@person.BirthPlace</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
