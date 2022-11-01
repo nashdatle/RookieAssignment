@@ -1,0 +1,27 @@
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\appsettings.Development.json
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\appsettings.json
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\Assignment 5 2.exe
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\Assignment 5 2.deps.json
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\Assignment 5 2.runtimeconfig.json
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\Assignment 5 2.dll
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\Assignment 5 2.pdb
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\RookieAssignment\Assignment 5.2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.csproj.AssemblyReference.cache
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.AssemblyInfoInputs.cache
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.AssemblyInfo.cs
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.csproj.CoreCompileInputs.cache
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.MvcApplicationPartsAssemblyInfo.cs
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.MvcApplicationPartsAssemblyInfo.cache
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\staticwebassets.build.json
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\staticwebassets.development.json
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\scopedcss\bundle\Assignment 5 2.styles.css
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.csproj.CopyComplete
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.dll
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\refint\Assignment 5 2.dll
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.pdb
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\Assignment 5 2.genruntimeconfig.cache
+D:\RookieAssignment\Assignment 5.2\obj\Debug\net6.0\ref\Assignment 5 2.dll

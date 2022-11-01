@@ -8,6 +8,6 @@ namespace Assignment_5_2.Models
         public string? Gender { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string? PhoneNumber { get; set; }
-        public string BirthPlace { get; set; }
+        public string? BirthPlace { get; set; }
     }
 }

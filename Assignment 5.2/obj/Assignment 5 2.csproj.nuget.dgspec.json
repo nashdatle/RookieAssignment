@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\RookieAssignment\\Assignment 5.2\\Assignment 5 2.csproj": {}
+    "D:\\RookieAssignment\\Assignment 5.2\\Assignment 5 2.csproj": {}
   },
   "projects": {
-    "d:\\RookieAssignment\\Assignment 5.2\\Assignment 5 2.csproj": {
+    "D:\\RookieAssignment\\Assignment 5.2\\Assignment 5 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\RookieAssignment\\Assignment 5.2\\Assignment 5 2.csproj",
+        "projectUniqueName": "D:\\RookieAssignment\\Assignment 5.2\\Assignment 5 2.csproj",
         "projectName": "Assignment 5 2",
-        "projectPath": "d:\\RookieAssignment\\Assignment 5.2\\Assignment 5 2.csproj",
+        "projectPath": "D:\\RookieAssignment\\Assignment 5.2\\Assignment 5 2.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "d:\\RookieAssignment\\Assignment 5.2\\obj\\",
+        "outputPath": "D:\\RookieAssignment\\Assignment 5.2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

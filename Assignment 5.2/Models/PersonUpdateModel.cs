@@ -13,6 +13,6 @@ namespace Assignment_5_2.Models
         [Required(ErrorMessage = "Last Name is requied")]
         public string? LastName { get; set; }
         public string? PhoneNumber { get; set; }
-        public string BirthPlace { get; set; }
+        public string? BirthPlace { get; set; }
     }
 }

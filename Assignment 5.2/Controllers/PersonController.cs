@@ -35,10 +35,10 @@ public class PersonController : ControllerBase
                 };
     }
 
-    [HttpGet("{index:int}")]
-    public PersonDetailsModel? GetOne(Guid index)
+    [HttpGet("{guid:int}")]
+    public PersonDetailsModel? GetOne(Guid guid)
     {
-        var data = _personService.GetOne(index);
+        var data = _personService.GetOne(guid);
         if (data == null)
         {
             return null;
@@ -82,14 +82,14 @@ public class PersonController : ControllerBase
         }
     }
 
-    [HttpPut("{index:int}")]
-    public IActionResult Update(Guid index, PersonUpdateModel model)
+    [HttpPut("{guid:int}")]
+    public IActionResult Update(Guid guid, PersonUpdateModel model)
     {
         if (!ModelState.IsValid) return BadRequest();
 
         try
         {
-            var data = _personService.GetOne(index);
+            var data = _personService.GetOne(guid);
             if(data == null)
             {
                 return NotFound();
@@ -99,7 +99,7 @@ public class PersonController : ControllerBase
             data.PhoneNumber = model.PhoneNumber;
             data.BirthPlace = model.BirthPlace;
 
-            var result = _personService.Update(index, data);
+            var result = _personService.Update(guid, data);
             return new JsonResult(result);
             
         }
@@ -109,17 +109,17 @@ public class PersonController : ControllerBase
         }
     }
 
-    [HttpDelete("{index:int}")]
-    public IActionResult Delete(Guid index)
+    [HttpDelete("{guid:int}")]
+    public IActionResult Delete(Guid guid)
     {
         try
         {
-            var data = _personService.GetOne(index);
+            var data = _personService.GetOne(guid);
             if(data == null)
             {
                 return NotFound();
             }
-            var result = _personService.Delete(index);
+            var result = _personService.Delete(guid);
             return new JsonResult(result);
             
         }
